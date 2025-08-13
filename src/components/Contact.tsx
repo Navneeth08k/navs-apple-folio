@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { Mail, Phone, MapPin, Github, Linkedin, Send } from "lucide-react";
+import { Mail, Phone, MapPin, Github, Linkedin } from "lucide-react";
 
 export const Contact = () => {
   const contactInfo = [
@@ -148,13 +148,6 @@ export const Contact = () => {
                   or just want to chat about technology, I'd love to hear from you!
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Button 
-                    className="gradient-apple shadow-apple hover:shadow-lg transition-all duration-300 flex items-center gap-2"
-                    onClick={() => window.open('mailto:navneeth.p.krishna@gmail.com', '_blank')}
-                  >
-                    <Send className="h-4 w-4" />
-                    Send Email
-                  </Button>
                   <Button 
                     variant="outline"
                     onClick={() => window.open('https://linkedin.com/in/navneethkrishna08/', '_blank')}
