@@ -4,6 +4,8 @@
 
 **URL**: https://lovable.dev/projects/484bb23d-cdaa-408b-a263-dc3eb0056d11
 
+**GitHub Pages**: https://navneeth08k.github.io/navs-apple-folio/
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
